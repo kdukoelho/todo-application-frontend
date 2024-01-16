@@ -42,3 +42,25 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
+
+.status{
+    width: 30px;
+    height: 8px;
+    background: gray;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.status.green{
+    background: rgb(21, 255, 0);
+}
+
+
+.status.blue{
+    background: blue;
+}
+
+
+.status.red{
+    background: red;
+}
