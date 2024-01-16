@@ -43,6 +43,10 @@ body{
     font-size: 16px;
 }
 
+.highlight{
+    background-color: #FD951f08;
+}
+
 .status{
     width: 30px;
     height: 8px;
@@ -63,4 +67,8 @@ body{
 
 .status.red{
     background: red;
+}
+
+.card, .dropzone{
+    transition: 0.4s;
 }

@@ -12,7 +12,7 @@ cardList.forEach(card => {
 // Card functions.
 
 function dragstart(){
-
+    dropzoneList.forEach(dropzone => dropzone.classList.add('highlight'))
 }
 
 function drag(){
@@ -20,7 +20,7 @@ function drag(){
 }
 
 function dragend(){
-
+    dropzoneList.forEach(dropzone => dropzone.classList.remove('highlight'))
 }
 
 // Dropzone event listener.
