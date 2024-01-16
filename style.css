@@ -43,10 +43,6 @@ body{
     font-size: 16px;
 }
 
-.highlight{
-    background-color: #FD951f08;
-}
-
 .status{
     width: 30px;
     height: 8px;
@@ -78,6 +74,14 @@ body{
     opacity: 0.3;
 }
 
+.highlight{
+    background-color: #FD951f08;
+}
+
 .highlight-over{
     background-color: #4cd13711;
+}
+
+.content p{
+    color: gray;
 }
