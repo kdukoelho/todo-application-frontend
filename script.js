@@ -43,13 +43,17 @@ function dragenter(){
 }
 
 function dragover(){
+    this.classList.add('highlight-over')
 
+    const cardDragged = document.querySelector('.is-dragging')
+
+    this.appendChild(cardDragged)
 }
 
 function dragleave(){
-
+    this.classList.remove('highlight-over')
 }
 
 function drop(){
-
+    this.classList.remove('highlight-over')
 }
