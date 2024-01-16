@@ -6,3 +6,8 @@ body{
     background-color: #130f0d;
     color: white;
 }
+
+.boards{
+    display: flex;
+    justify-content: space-between;
+}
