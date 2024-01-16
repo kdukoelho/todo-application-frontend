@@ -1,4 +1,5 @@
 const cardList = document.querySelectorAll('.card')
+const dropzoneList = document.querySelectorAll('.dropzone')
 
 // Card event listener.
 
@@ -19,5 +20,32 @@ function drag(){
 }
 
 function dragend(){
+
+}
+
+// Dropzone event listener.
+
+dropzoneList.forEach(dropzone => {
+    dropzone.addEventListener("dragenter", dragenter)
+    dropzone.addEventListener("dragover", dragover)
+    dropzone.addEventListener("dragleave", dragleave)
+    dropzone.addEventListener("drop", drop)
+})
+
+// Dropzone functions.
+
+function dragenter(){
+
+}
+
+function dragover(){
+
+}
+
+function dragleave(){
+
+}
+
+function drop(){
 
 }
