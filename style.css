@@ -28,7 +28,7 @@ body{
 
 .dropzone{
     padding: 16px;
-    min-width: 332px;
+    min-width: 300px;
     min-height: 200px;
 }
 
@@ -41,6 +41,20 @@ body{
     border-radius: 4px;
     font-weight: 400;
     font-size: 16px;
+}
+
+.add-button{
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #141316;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin: auto;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .status{
