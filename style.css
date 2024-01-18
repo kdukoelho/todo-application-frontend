@@ -7,7 +7,7 @@ body{
     color: white;
 }
 
-.boards{
+.kanban{
     display: flex;
     justify-content: space-between;
 }
@@ -20,7 +20,9 @@ body{
     margin: 0 16px;
 }
 
-.board h3{
+.board-title{
+    font-weight: bold;
+    font-size: 28px;
     padding: 16px;
     margin: 0;
     color: white;
